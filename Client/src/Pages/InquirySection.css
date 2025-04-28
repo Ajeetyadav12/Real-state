@@ -1,0 +1,99 @@
+.inquiry-section {
+    display: flex;
+    height: 700px;
+
+    background-image: url('https://s3-alpha-sig.figma.com/img/7a95/171b/a68cafe9d7786bd31c34851b4bc35326?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=SRnUgrcfNfGwVJ7y47~Km7YWkO3IOqW3p6LRM9mh4q5feiaFIWLkbDIY5X6j6lE1F7u6Vlehh4RXG-2oD6nIlJFhPGAmSh0x16HmStSzzvvMF3AkrdGUna9B~mYrO5hrx7rb~PmRLBjkm67bdvtytqQ0hhnw7eph4uH4LACk7RvH6RyLmTRE1wEqyxPGea6w0ohv6FKr1zzzL2IChTz~y2TVN6NlMzxhw9mPV70yBSkhSP6PrXjwtfBq1I6~pI8i5yC4cHc~3MXu95BEisDGIw-mbeIlPbOWwFJ-G9Ayb2fVOt~IQhQp~Ez0YGbnU1r~oIkkXjGTG3dMPQGYcArRIA__');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 40px;
+    color: white;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  
+  .left-content {
+    flex: 1;
+  }
+  
+  .left-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .underline {
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    margin: 20px 0;
+  }
+  
+  .points .point {
+    margin-bottom: 30px;
+  }
+  
+  .points .point h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .points .point span {
+    font-weight: bold;
+  }
+  
+  .points .point p {
+    font-size: 14px;
+    color: #f0f0f0;
+  }
+  
+  /* Right Side Form */
+  .right-form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 350px;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-card h5 {
+    margin-bottom: 20px;
+    font-weight: bold;
+
+  }
+  
+  .form-card label {
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .form-card input,
+  .form-card select,
+  .form-card textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .form-card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .form-card button:hover {
+    background-color: #0056b3;
+  }
+  
